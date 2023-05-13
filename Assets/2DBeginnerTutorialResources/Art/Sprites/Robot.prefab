@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 4185526783178624277}
   - component: {fileID: 4398551235273753638}
   - component: {fileID: 6127781545192159496}
+  - component: {fileID: 692300226}
+  - component: {fileID: 5011728033585800005}
   m_Layer: 0
   m_Name: Robot
   m_TagString: Untagged
@@ -133,3 +135,39 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2136412, y: 0.8185736}
   m_EdgeRadius: 0
+--- !u!114 &692300226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2783507073101966461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe86d0d162f4634ba2dee67b5a20cda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  vertical: 0
+  changeTime: 3
+--- !u!95 &5011728033585800005
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2783507073101966461}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 75244bc53d241934cab1dab3627f0a55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
