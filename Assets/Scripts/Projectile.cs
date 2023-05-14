@@ -6,7 +6,7 @@ public class Projectile : MonoBehaviour
 {
 
     Rigidbody2D rigidbody2d;
-
+    public AudioClip collectedClip;
     // Start is called before the first frame update
     void Awake()
     {
@@ -34,6 +34,8 @@ public class Projectile : MonoBehaviour
         if (e != null)
         {
             e.Fix();
+            
+            e.PlaySound(collectedClip);
         }
         Destroy(gameObject);
     }

@@ -15,6 +15,7 @@ public class EnemyController : MonoBehaviour
 
     public ParticleSystem smokeEffect;
     Animator animator;
+     AudioSource audioSource;
     
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,12 @@ public class EnemyController : MonoBehaviour
         rigidbody2D = GetComponent<Rigidbody2D>();
         timer = changeTime;
         animator = GetComponent<Animator>();
+        audioSource= GetComponent<AudioSource>();
+    }
+
+     public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 
     void Update()
