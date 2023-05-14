@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 54949000214e3c543b9ad2f1688b8b76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -89,7 +89,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!50 &4398551235273753638
 Rigidbody2D:
   serializedVersion: 4
@@ -124,10 +124,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.024932384, y: -0.8350952}
+  m_Offset: {x: -0.024932861, y: 0.46748257}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 2.56, y: 2.56}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
@@ -135,7 +135,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2136412, y: 0.8185736}
+  m_Size: {x: 1.1527023, y: 0.833807}
   m_EdgeRadius: 0
 --- !u!114 &692300226
 MonoBehaviour:
@@ -287,7 +287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3019913134129552056, guid: b33d737c66e5af9459ab52ca8eab7799, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.32
+      value: 1.61
       objectReference: {fileID: 0}
     - target: {fileID: 3019913134129552056, guid: b33d737c66e5af9459ab52ca8eab7799, type: 3}
       propertyPath: m_LocalPosition.z
