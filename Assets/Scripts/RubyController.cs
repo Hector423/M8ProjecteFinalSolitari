@@ -7,7 +7,6 @@ public class RubyController : MonoBehaviour
     public float speed = 3.0f;
 
     public GameObject projectilePrefab;
-    public GameObject projectileObject;
     
     public int maxHealth = 5;
     public float timeInvincible = 2.0f;
@@ -34,6 +33,7 @@ public class RubyController : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
+        
 
         audioSource= GetComponent<AudioSource>();
        
@@ -70,7 +70,10 @@ public class RubyController : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.C))
         {
-            Launch();
+            
+                Launch();    
+            
+            
         }
 
         if (Input.GetKeyDown(KeyCode.X))
